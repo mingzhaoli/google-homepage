@@ -5,12 +5,27 @@
     <title>Google</title>
   </head>
   <body>
-    <div id="logo" class="">
-      <img src="/imgs/googlelogo_color_272x92dp.png" alt="google-logo">
+    <div class="navbar">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <div class="dropdown">
+          <button type="dropButton"></button>
+        </div>
+      </ul>
+    </div>
+    <div id="logo" class="mainview">
+      <img src="odinProject/google-homepage/imgs/googlelogo_color_272x92dp.png" alt="google-logo">
     </div>
     <div class="searchform">
       <form class="form" action="default.js" method="post">
         <input type="search" name="search">
+        <div class="buttons">
+          <button type="searchButton" name="button">Google Search</button>
+          <button type="luckyButton" name="button">I'm Feeling Lucky</button>
+        </div>
       </form>
     </div>
   </body>
