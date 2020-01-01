@@ -4,5 +4,7 @@ ul {
   padding: 0;
 }
 .mainview{
-  
+  margin:auto;
+  width: 50%;
+  height: 50%;
 }
