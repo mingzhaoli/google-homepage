@@ -1,7 +1,10 @@
-ul {
+ul.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+li.navbar{
+  display:inline;
 }
 .mainview{
   margin:auto;
