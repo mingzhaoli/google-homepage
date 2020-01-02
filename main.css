@@ -1,0 +1,16 @@
+.nav{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+.left-nav{
+  float:left;
+}
+.right-nav{
+  float:right;
+}
+.view-form{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
