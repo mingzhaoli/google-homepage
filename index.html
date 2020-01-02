@@ -2,40 +2,29 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="main.css">
     <title>Google</title>
+    <link rel="stylesheet" href="/css/master.css">
+    <script src="default.jss"></script>
   </head>
   <body>
-    <div class="navbar">
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Store</a></li>
-        <li><a href="#">Gmail</a></li>
-        <li><a href="#">Images</a></li>
-        <div class="dropdown">
-          <button onclick="dropdownFunction()" class="dropButton"><img id="dropdownIcon" src="imgs/dropdownmenu.png" alt="dropdownmenu"></button>
-          <div class="dropdown-content">
-            <a href="#"><img class="menuItems" src="imgs/account.png" alt="account_logo">Account</a>
-            <a href="#"><img class="menuItems" src="imgs/maps.png" alt="maps_logo">Maps</a>
-            <a href="#"><img class="menuItems" src="imgs/youtube.png" alt="youtube_logo">Youtube</a>
-            <a href="#"><img class="menuItems" src="imgs/gmail.png" alt="gmail_logo">Gmail</a>
-            <a href="#"><img class="menuItems" src="imgs/drive.png" alt="drive_logo">Drive</a>
-            <a href="#"><img class="menuItems" src="imgs/calendar.png" alt="calendar_logo">Calendar</a>
-          </div>
-        </div>
-      </ul>
+
+    <div class="nav">
+      <li class="left-nav"><a href="#">About</a></li>
+      <li class="left-nav"><a href="#">Store</a></li>
+      <li class="right-nav"><a href="#">Gmail</a></li>
+      <li class="right-nav"><a href="#">Images</a></li>
+      <!-- TODO: Create dropdown menu for nav-bar-->
+      <li id="dropdown-menu" class="right-nav">dropdown-temp</li>
+      <!-- TODO: Create sign in button-->
+      <li id="sign-in" class="right-nav"></li>
     </div>
-    <div id="logo" class="mainview">
-      <img src="imgs/googlelogo.png" alt="google-logo">
+
+    <div class="view-form">
+      <img src="imgs/googlelogo.png" alt="Google-Logo">
+      <input type="search" name="search-bar">
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
     </div>
-    <div class="searchform">
-      <form class="form" action="default.js" method="post">
-        <input type="search" name="search">
-        <div class="buttons">
-          <button type="searchButton" name="button">Google Search</button>
-          <button type="luckyButton" name="button">I'm Feeling Lucky</button>
-        </div>
-      </form>
-    </div>
+
   </body>
 </html>
