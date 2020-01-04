@@ -14,12 +14,26 @@
       <li class="left-nav"><a href="#">Store</a></li>
       <li class="right-nav"><a href="#">Gmail</a></li>
       <li class="right-nav"><a href="#">Images</a></li>
-      <!-- TODO: Create dropdown menu for nav-bar-->
-      <li id="dropdown-menu" class="right-nav">dropdown-temp</li>
-      <!-- TODO: Create sign in button-->
-      <li id="sign-in" class="right-nav">Sign In</li>
     </ul>
   </div>
+
+  <!-- TODO: Create dropdown menu for nav-bar-->
+  <div class="dropdown-menu">
+    <button onclick="dropdownFunction()" class="dropdownbtn">
+      <img src="imgs/dropdownmenu.png" alt="dropdown-menu">
+    </button>
+    <div id="dropdown" class="dropdown-content">
+      <a href="#"> <img src="imgs/account.png" alt="account"> </a>
+      <a href="#"> <img src="imgs/calendar.png" alt="calendar"> </a>
+      <a href="#"> <img src="drive.png" alt="drive"> </a>
+      <a href="#"> <img src="imgs/gmail.png" alt="gmail"> </a>
+      <a href="#"> <img src="imgs/maps.png" alt="maps"> </a>
+      <a href="#"> <img src="imgs/youtube.png" alt="youtube"> </a>
+    </div>
+  </div>
+
+  <!-- TODO: Create sign in button-->
+  <button type="button" class="signin-button">Sign-In</button>
 
   <div class="view-form">
     <img src="imgs/googlelogo.png" alt="Google-Logo">
