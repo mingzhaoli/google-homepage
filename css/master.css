@@ -1,26 +1,24 @@
-
-ul{
-  margin: 0;
-  padding: 0;
-}
-li{
+.navbar{
   display: inline;
 }
-.nav .left-nav{
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li.left-nav{
   float: left;
 }
-.nav .right-nav{
+li.right-view{
   float: right;
 }
-.dropmenu{
-  float: right;
+li a{
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
 }
-.dropdownbtn{
-  width: 50px;
-  height: 50px;
-  float: right;
-}
-.drop-logo{
+a img{
   width: 50px;
   height: 50px;
 }
